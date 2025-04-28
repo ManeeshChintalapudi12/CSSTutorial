@@ -1,57 +1,135 @@
 body
 {
-    background-color: powderblue;
-    font-family: verdana,courier;
-    font-size: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
     padding: 20px;
 }
-form
+form 
 {
-    background-color: #f5f5f5;
-    margin: auto;
+    background-color: #ffffff;
     padding: 30px;
-    width: auto;
+    width: 60%;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 .Regestration-form
 {
-    font-family: Raleway;
-    font-size: 38px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: auto;
 }
-    
-p 
+.Signature-form 
 {
-    font-family: Raleway, sans-serif;
-    font-size: 29px;
-    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #2c3e50;
 }
-.Patientname 
+.Patientname
 {
-        box-sizing: border-box;
-        text-align: left;
-        margin-top: 20px;
+    margin-bottom: 15px;
 }
-    
+.Patientname input
+{
+    width: 47%;
+    padding: 8px;
+    margin: 5px 1%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.Number 
+{
+    margin-bottom: 15px;
+}
+.Number input
+{
+    width: 96%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.Datebirth 
+{
+    margin-bottom: 15px;
+}
+.Datebirth input 
+{
+    width: 96%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 .checkbox-group 
 {
-        margin-top: 20px;
-        text-align: left;
-        font-size: 20px;
+    margin-bottom: 15px;
 }
-    
-.Number
+.checkbox-group label 
 {
-        margin-top: 20px;
-        text-align: left;
+    margin-right: 20px;
+    font-size: 15px;
+    color: #34495e;
 }
-    
-.Datebirth
+.checkbox-group input
 {
-        margin-top: 20px;
-        text-align: left;
+    margin-right: 5px;
 }
-    
-.Address
+.Address 
 {
-        margin-top: 20px;
-        text-align: left;
+    margin-bottom: 15px;
 }
+.MainAddress input,
+.SubAddress input 
+{
+    width: 47%;
+    padding: 8px;
+    margin: 5px 1%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.Nation 
+{
+    margin-bottom: 15px;
+}
+.Nation input,
+.Nation select 
+{
+    width: 47%;
+    padding: 8px;
+    margin: 5px 1%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.Insurance 
+{
+    margin-bottom: 15px;
+}
+.Insurance input
+{
+    width: 96%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.Medical-history 
+{
+    margin-bottom: 20px;
+}
+.Medical-history label 
+{
+    display: block;
+    color: #34495e;
+}
+.button 
+{
+    text-align: center;
+    border-style: solid;
+    background-color: black;
+    color:#ffffff
+}
+
